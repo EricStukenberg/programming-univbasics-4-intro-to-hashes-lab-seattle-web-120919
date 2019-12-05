@@ -6,7 +6,8 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  hash = Hash.new
+  person => {:name => "Eric"}
+  return person
 end
 
 def pioneer
