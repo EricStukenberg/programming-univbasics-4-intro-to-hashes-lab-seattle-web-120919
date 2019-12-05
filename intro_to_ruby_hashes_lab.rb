@@ -24,9 +24,9 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  var num = rand(100)
+  #var num = rand(100)
   numbers = {
-    :id => num
+    :id => rand(100)
   }
   return numbers
 end
