@@ -16,7 +16,7 @@ end
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
   pioneer = {
-    name: "Grace Hopper"
+    :name "Grace Hopper"
     
   }
   return pioneer;
@@ -26,7 +26,7 @@ def id_generator
   # return a hash with a key :id assigned to positive integer
   var num = rand(100)
   numbers {
-    id: num
+    :id num
   }
   return numbers
 end
